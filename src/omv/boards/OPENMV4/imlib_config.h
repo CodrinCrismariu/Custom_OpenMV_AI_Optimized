@@ -92,11 +92,11 @@
 #define IMLIB_ENABLE_FIND_RECTS
 
 // Enable find_qrcodes() (14 KB)
-#define IMLIB_ENABLE_QRCODES
+// #define IMLIB_ENABLE_QRCODES#
 
 // Enable find_apriltags() (64 KB)
-#define IMLIB_ENABLE_APRILTAGS
-#define IMLIB_ENABLE_APRILTAGS_TAG36H11
+// #define IMLIB_ENABLE_APRILTAGS
+// #define IMLIB_ENABLE_APRILTAGS_TAG36H11
 
 // Enable fine find_apriltags() - (8-way connectivity versus 4-way connectivity)
 // #define IMLIB_ENABLE_FINE_APRILTAGS
@@ -105,19 +105,19 @@
 // #define IMLIB_ENABLE_HIGH_RES_APRILTAGS
 
 // Enable find_datamatrices() (26 KB)
-#define IMLIB_ENABLE_DATAMATRICES
+// #define IMLIB_ENABLE_DATAMATRICES
 
 // Enable find_barcodes() (42 KB)
-#define IMLIB_ENABLE_BARCODES
+// #define IMLIB_ENABLE_BARCODES
 
 // Enable find_features() and built-in Haar cascades. (75KBs)
-#define IMLIB_ENABLE_FEATURES
-#define IMLIB_ENABLE_FEATURES_BUILTIN_FACE_CASCADE
+// #define IMLIB_ENABLE_FEATURES
+// #define IMLIB_ENABLE_FEATURES_BUILTIN_FACE_CASCADE
 //#define IMLIB_ENABLE_FEATURES_BUILTIN_EYES_CASCADE
 
 // Enable Tensor Flow
 #if !defined(CUBEAI)
-#define IMLIB_ENABLE_TFLM_BUILTIN_FOMO_FACE_DETECTION
+// #define IMLIB_ENABLE_TFLM_BUILTIN_FOMO_FACE_DETECTION
 #endif
 
 // Enable AGAST.

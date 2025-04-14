@@ -676,7 +676,7 @@ FIRM_OBJ += $(addprefix $(BUILD)/$(TENSORFLOW_DIR)/, \
 	tflm_backend.o \
 	tflm_builtin_models.o \
 	)
-LIBS += $(TOP_DIR)/$(TENSORFLOW_DIR)/libtflm/lib/libtflm-$(CPU)+fp-release.a
+LIBS += $(TOP_DIR)/$(TENSORFLOW_DIR)/libtflm/lib/libtflm-$(CPU)+fp-release_with_logs.a
 endif
 
 ###################################################

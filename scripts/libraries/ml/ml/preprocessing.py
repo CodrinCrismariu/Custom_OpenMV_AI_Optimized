@@ -93,4 +93,5 @@ class Normalization:
                 fadd = (fadd - np.array(self.mean)) / np.array(self.stdev)
                 fscale = fscale / np.array(self.stdev)
 
-            array = (array * fscale) + fadd
+            array *= fscale
+            array += fadd
